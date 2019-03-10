@@ -16,7 +16,7 @@ public class Principal {
      */
     public static void main(String[] args) {
         // Creamos un objeto de la clase Reloj
-        Reloj miReloj=new Reloj(7,7,59);
+        Reloj miReloj=new Reloj(7,7,59,20,4);
         //Mostramos la hora en formato 24H
         System.out.println("La hora que marca miReloj en formato 24H es:");
         System.out.println(miReloj.hora24());
@@ -41,6 +41,10 @@ public class Principal {
         System.out.println(miReloj.hora24());
         System.out.println("La hora tras restar un segundo en formato 12H es: ");
         System.out.println(miReloj.hora12());
+        System.out.println("El día es: ");
+        System.out.println(miReloj.obtenerDia());
+        System.out.println("El mes es: ");
+        System.out.println(miReloj.obtenerMes());
         
     }
     
